@@ -1,0 +1,4 @@
+*.pickle
+*.txt
+test*
+config.json
