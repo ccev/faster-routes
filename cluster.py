@@ -99,7 +99,7 @@ def get_spawns():
         area = f.read()
 
     area = area.replace(",", " ").strip("\n")
-    area = area.split("\n")
+    area = [point for point in area.split("\n") if point.find('[') == -1]
     area.append(area[0])
     area = ",".join(area)
     cursor = connection.cursor()
