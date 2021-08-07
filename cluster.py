@@ -177,7 +177,8 @@ def cluster_v1(spawns, final=[]):
         for point in points:
             if spawn.id in point.get_spawn_id():
                 circles.append(point)
-        
+        if len(circles) == 0:
+            continue
         circle = max(circles, key=lambda point: (len(point.get_spawns())))
         for circlespawn in circle.get_spawns():
             circlespawn.done = True
