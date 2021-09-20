@@ -1,3 +1,9 @@
+## This repo is no longer maintained
+
+Due to a lack of motivation and time, I've decided to archive most of my repos. At the time of writing this, it's still fully functional.
+
+faster-routes is a pretty cool tool to generate a quick base route for you, that should then be edited manually in order to fully maximize scans. The only improvement I thought of would be to make the workflow a bit easier. By integrating Tabbo's overwrite route script into it and grabbing the spawns and geofence from the madmin API. Also it should be able to handle multipolygons. Shouldn't be too hard
+
 # faster-routes
 An alternate routecalc algorithm for MAD (made quick and dirty)
 
